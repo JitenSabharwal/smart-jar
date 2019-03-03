@@ -32,6 +32,10 @@ Launches the test runner in the interactive watch mode.<br>
 Builds the app for production to the `build` folder.<br>
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
+#### `npm run dev`
+
+To run the app for development mode.<br>
+
 ## Folder Structure
 - bin
 - client
@@ -89,10 +93,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 ### ./server
   This folder consist of the backend express server application, it contains 
   - routes : This folder consist of the app routes
-  - controllers : This folder consist of the buusuness logic for the routes
+  - controllers : This folder consist of the business logic for the routes
   - models : This folder consist for db schemas
   - test : This folder consist of the test files
   - utils : This folder consist helpers 
   - server.js : This is the express application that is being used in ./bin/app.js to serve the server
-### ./uploads
-This folder holds the uploaded images
