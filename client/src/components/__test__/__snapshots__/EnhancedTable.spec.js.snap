@@ -1,0 +1,878 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EnhancedTable render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <EnhancedTable
+    classes={
+      Object {
+        "root": Object {
+          "marginTop": NaN,
+          "width": "100%",
+        },
+        "table": Object {
+          "minWidth": 1020,
+        },
+        "tableWrapper": Object {
+          "overflowX": "auto",
+        },
+      }
+    }
+    data={Array []}
+    handleDelete={[Function]}
+    orderBy="firstName"
+    rowHeads={
+      Array [
+        Object {
+          "disablePadding": true,
+          "id": "firstName",
+          "label": "FirstName",
+          "numeric": false,
+        },
+        Object {
+          "disablePadding": false,
+          "id": "lastName",
+          "label": "LastName",
+          "numeric": false,
+        },
+        Object {
+          "disablePadding": false,
+          "id": "hobbies",
+          "label": "Hobbies",
+          "numeric": false,
+        },
+        Object {
+          "disablePadding": false,
+          "id": "birthDate",
+          "label": "BirthDate",
+          "numeric": false,
+        },
+        Object {
+          "disablePadding": false,
+          "id": "url",
+          "label": "Profile",
+          "numeric": false,
+        },
+      ]
+    }
+    rowsPerPage={10}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <WithStyles(EnhancedTableToolbar)
+          handleDelete={[Function]}
+          numSelected={0}
+          selected={Array []}
+        />,
+        <div
+          className={
+            Object {
+              "overflowX": "auto",
+            }
+          }
+        >
+          <WithStyles(Table)
+            aria-labelledby="tableTitle"
+            className={
+              Object {
+                "minWidth": 1020,
+              }
+            }
+          >
+            <EnhancedTableHead
+              numSelected={0}
+              onRequestSort={[Function]}
+              onSelectAllClick={[Function]}
+              order="asc"
+              orderBy="firstName"
+              rowCount={0}
+              rows={
+                Array [
+                  Object {
+                    "disablePadding": true,
+                    "id": "firstName",
+                    "label": "FirstName",
+                    "numeric": false,
+                  },
+                  Object {
+                    "disablePadding": false,
+                    "id": "lastName",
+                    "label": "LastName",
+                    "numeric": false,
+                  },
+                  Object {
+                    "disablePadding": false,
+                    "id": "hobbies",
+                    "label": "Hobbies",
+                    "numeric": false,
+                  },
+                  Object {
+                    "disablePadding": false,
+                    "id": "birthDate",
+                    "label": "BirthDate",
+                    "numeric": false,
+                  },
+                  Object {
+                    "disablePadding": false,
+                    "id": "url",
+                    "label": "Profile",
+                    "numeric": false,
+                  },
+                ]
+              }
+            />
+            <WithStyles(TableBody)>
+              <WithStyles(TableRow)
+                style={
+                  Object {
+                    "height": 490,
+                  }
+                }
+              >
+                <WithStyles(TableCell)
+                  colSpan={4}
+                />
+              </WithStyles(TableRow)>
+            </WithStyles(TableBody)>
+          </WithStyles(Table)>
+        </div>,
+        <WithStyles(TablePagination)
+          backIconButtonProps={
+            Object {
+              "aria-label": "Previous Page",
+            }
+          }
+          component="div"
+          count={0}
+          nextIconButtonProps={
+            Object {
+              "aria-label": "Next Page",
+            }
+          }
+          onChangePage={[Function]}
+          onChangeRowsPerPage={[Function]}
+          page={0}
+          rowsPerPage={10}
+        />,
+      ],
+      "className": Object {
+        "marginTop": NaN,
+        "width": "100%",
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "handleDelete": [Function],
+          "numSelected": 0,
+          "selected": Array [],
+          "tableName": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": <WithStyles(Table)
+            aria-labelledby="tableTitle"
+            className={
+              Object {
+                "minWidth": 1020,
+              }
+            }
+          >
+            <EnhancedTableHead
+              numSelected={0}
+              onRequestSort={[Function]}
+              onSelectAllClick={[Function]}
+              order="asc"
+              orderBy="firstName"
+              rowCount={0}
+              rows={
+                Array [
+                  Object {
+                    "disablePadding": true,
+                    "id": "firstName",
+                    "label": "FirstName",
+                    "numeric": false,
+                  },
+                  Object {
+                    "disablePadding": false,
+                    "id": "lastName",
+                    "label": "LastName",
+                    "numeric": false,
+                  },
+                  Object {
+                    "disablePadding": false,
+                    "id": "hobbies",
+                    "label": "Hobbies",
+                    "numeric": false,
+                  },
+                  Object {
+                    "disablePadding": false,
+                    "id": "birthDate",
+                    "label": "BirthDate",
+                    "numeric": false,
+                  },
+                  Object {
+                    "disablePadding": false,
+                    "id": "url",
+                    "label": "Profile",
+                    "numeric": false,
+                  },
+                ]
+              }
+            />
+            <WithStyles(TableBody)>
+              <WithStyles(TableRow)
+                style={
+                  Object {
+                    "height": 490,
+                  }
+                }
+              >
+                <WithStyles(TableCell)
+                  colSpan={4}
+                />
+              </WithStyles(TableRow)>
+            </WithStyles(TableBody)>
+          </WithStyles(Table)>,
+          "className": Object {
+            "overflowX": "auto",
+          },
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "aria-labelledby": "tableTitle",
+            "children": Array [
+              <EnhancedTableHead
+                numSelected={0}
+                onRequestSort={[Function]}
+                onSelectAllClick={[Function]}
+                order="asc"
+                orderBy="firstName"
+                rowCount={0}
+                rows={
+                  Array [
+                    Object {
+                      "disablePadding": true,
+                      "id": "firstName",
+                      "label": "FirstName",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "lastName",
+                      "label": "LastName",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "hobbies",
+                      "label": "Hobbies",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "birthDate",
+                      "label": "BirthDate",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "url",
+                      "label": "Profile",
+                      "numeric": false,
+                    },
+                  ]
+                }
+              />,
+              <WithStyles(TableBody)>
+                <WithStyles(TableRow)
+                  style={
+                    Object {
+                      "height": 490,
+                    }
+                  }
+                >
+                  <WithStyles(TableCell)
+                    colSpan={4}
+                  />
+                </WithStyles(TableRow)>
+              </WithStyles(TableBody)>,
+            ],
+            "className": Object {
+              "minWidth": 1020,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "numSelected": 0,
+                "onRequestSort": [Function],
+                "onSelectAllClick": [Function],
+                "order": "asc",
+                "orderBy": "firstName",
+                "rowCount": 0,
+                "rows": Array [
+                  Object {
+                    "disablePadding": true,
+                    "id": "firstName",
+                    "label": "FirstName",
+                    "numeric": false,
+                  },
+                  Object {
+                    "disablePadding": false,
+                    "id": "lastName",
+                    "label": "LastName",
+                    "numeric": false,
+                  },
+                  Object {
+                    "disablePadding": false,
+                    "id": "hobbies",
+                    "label": "Hobbies",
+                    "numeric": false,
+                  },
+                  Object {
+                    "disablePadding": false,
+                    "id": "birthDate",
+                    "label": "BirthDate",
+                    "numeric": false,
+                  },
+                  Object {
+                    "disablePadding": false,
+                    "id": "url",
+                    "label": "Profile",
+                    "numeric": false,
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  Array [],
+                  <WithStyles(TableRow)
+                    style={
+                      Object {
+                        "height": 490,
+                      }
+                    }
+                  >
+                    <WithStyles(TableCell)
+                      colSpan={4}
+                    />
+                  </WithStyles(TableRow)>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "children": <WithStyles(TableCell)
+                      colSpan={4}
+                    />,
+                    "style": Object {
+                      "height": 490,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "colSpan": 4,
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "backIconButtonProps": Object {
+            "aria-label": "Previous Page",
+          },
+          "component": "div",
+          "count": 0,
+          "nextIconButtonProps": Object {
+            "aria-label": "Next Page",
+          },
+          "onChangePage": [Function],
+          "onChangeRowsPerPage": [Function],
+          "page": 0,
+          "rowsPerPage": 10,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <WithStyles(EnhancedTableToolbar)
+            handleDelete={[Function]}
+            numSelected={0}
+            selected={Array []}
+          />,
+          <div
+            className={
+              Object {
+                "overflowX": "auto",
+              }
+            }
+          >
+            <WithStyles(Table)
+              aria-labelledby="tableTitle"
+              className={
+                Object {
+                  "minWidth": 1020,
+                }
+              }
+            >
+              <EnhancedTableHead
+                numSelected={0}
+                onRequestSort={[Function]}
+                onSelectAllClick={[Function]}
+                order="asc"
+                orderBy="firstName"
+                rowCount={0}
+                rows={
+                  Array [
+                    Object {
+                      "disablePadding": true,
+                      "id": "firstName",
+                      "label": "FirstName",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "lastName",
+                      "label": "LastName",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "hobbies",
+                      "label": "Hobbies",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "birthDate",
+                      "label": "BirthDate",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "url",
+                      "label": "Profile",
+                      "numeric": false,
+                    },
+                  ]
+                }
+              />
+              <WithStyles(TableBody)>
+                <WithStyles(TableRow)
+                  style={
+                    Object {
+                      "height": 490,
+                    }
+                  }
+                >
+                  <WithStyles(TableCell)
+                    colSpan={4}
+                  />
+                </WithStyles(TableRow)>
+              </WithStyles(TableBody)>
+            </WithStyles(Table)>
+          </div>,
+          <WithStyles(TablePagination)
+            backIconButtonProps={
+              Object {
+                "aria-label": "Previous Page",
+              }
+            }
+            component="div"
+            count={0}
+            nextIconButtonProps={
+              Object {
+                "aria-label": "Next Page",
+              }
+            }
+            onChangePage={[Function]}
+            onChangeRowsPerPage={[Function]}
+            page={0}
+            rowsPerPage={10}
+          />,
+        ],
+        "className": Object {
+          "marginTop": NaN,
+          "width": "100%",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "handleDelete": [Function],
+            "numSelected": 0,
+            "selected": Array [],
+            "tableName": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <WithStyles(Table)
+              aria-labelledby="tableTitle"
+              className={
+                Object {
+                  "minWidth": 1020,
+                }
+              }
+            >
+              <EnhancedTableHead
+                numSelected={0}
+                onRequestSort={[Function]}
+                onSelectAllClick={[Function]}
+                order="asc"
+                orderBy="firstName"
+                rowCount={0}
+                rows={
+                  Array [
+                    Object {
+                      "disablePadding": true,
+                      "id": "firstName",
+                      "label": "FirstName",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "lastName",
+                      "label": "LastName",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "hobbies",
+                      "label": "Hobbies",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "birthDate",
+                      "label": "BirthDate",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "url",
+                      "label": "Profile",
+                      "numeric": false,
+                    },
+                  ]
+                }
+              />
+              <WithStyles(TableBody)>
+                <WithStyles(TableRow)
+                  style={
+                    Object {
+                      "height": 490,
+                    }
+                  }
+                >
+                  <WithStyles(TableCell)
+                    colSpan={4}
+                  />
+                </WithStyles(TableRow)>
+              </WithStyles(TableBody)>
+            </WithStyles(Table)>,
+            "className": Object {
+              "overflowX": "auto",
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "aria-labelledby": "tableTitle",
+              "children": Array [
+                <EnhancedTableHead
+                  numSelected={0}
+                  onRequestSort={[Function]}
+                  onSelectAllClick={[Function]}
+                  order="asc"
+                  orderBy="firstName"
+                  rowCount={0}
+                  rows={
+                    Array [
+                      Object {
+                        "disablePadding": true,
+                        "id": "firstName",
+                        "label": "FirstName",
+                        "numeric": false,
+                      },
+                      Object {
+                        "disablePadding": false,
+                        "id": "lastName",
+                        "label": "LastName",
+                        "numeric": false,
+                      },
+                      Object {
+                        "disablePadding": false,
+                        "id": "hobbies",
+                        "label": "Hobbies",
+                        "numeric": false,
+                      },
+                      Object {
+                        "disablePadding": false,
+                        "id": "birthDate",
+                        "label": "BirthDate",
+                        "numeric": false,
+                      },
+                      Object {
+                        "disablePadding": false,
+                        "id": "url",
+                        "label": "Profile",
+                        "numeric": false,
+                      },
+                    ]
+                  }
+                />,
+                <WithStyles(TableBody)>
+                  <WithStyles(TableRow)
+                    style={
+                      Object {
+                        "height": 490,
+                      }
+                    }
+                  >
+                    <WithStyles(TableCell)
+                      colSpan={4}
+                    />
+                  </WithStyles(TableRow)>
+                </WithStyles(TableBody)>,
+              ],
+              "className": Object {
+                "minWidth": 1020,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "numSelected": 0,
+                  "onRequestSort": [Function],
+                  "onSelectAllClick": [Function],
+                  "order": "asc",
+                  "orderBy": "firstName",
+                  "rowCount": 0,
+                  "rows": Array [
+                    Object {
+                      "disablePadding": true,
+                      "id": "firstName",
+                      "label": "FirstName",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "lastName",
+                      "label": "LastName",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "hobbies",
+                      "label": "Hobbies",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "birthDate",
+                      "label": "BirthDate",
+                      "numeric": false,
+                    },
+                    Object {
+                      "disablePadding": false,
+                      "id": "url",
+                      "label": "Profile",
+                      "numeric": false,
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    Array [],
+                    <WithStyles(TableRow)
+                      style={
+                        Object {
+                          "height": 490,
+                        }
+                      }
+                    >
+                      <WithStyles(TableCell)
+                        colSpan={4}
+                      />
+                    </WithStyles(TableRow)>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "children": <WithStyles(TableCell)
+                        colSpan={4}
+                      />,
+                      "style": Object {
+                        "height": 490,
+                      },
+                    },
+                    "ref": null,
+                    "rendered": Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "class",
+                      "props": Object {
+                        "colSpan": 4,
+                      },
+                      "ref": null,
+                      "rendered": null,
+                      "type": [Function],
+                    },
+                    "type": [Function],
+                  },
+                ],
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "backIconButtonProps": Object {
+              "aria-label": "Previous Page",
+            },
+            "component": "div",
+            "count": 0,
+            "nextIconButtonProps": Object {
+              "aria-label": "Next Page",
+            },
+            "onChangePage": [Function],
+            "onChangeRowsPerPage": [Function],
+            "page": 0,
+            "rowsPerPage": 10,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;

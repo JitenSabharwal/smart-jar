@@ -1,0 +1,5 @@
+export const ALL_CONTAINER_ENDPOINT = '/api/v1/user'
+export const ADD_CONTAINER_ENDPOINT = '/api/v1/user/addUser'
+export const UPDATE_CONTAINER_ENDPOINT = '/api/v1/user/updateUser'
+export const DELETE_CONTAINER_ENDPOINT = '/api/v1/user/removeUser'
+export const DELETE_ALL_CONTAINER_ENDPOINT = '/api/v1/user/removeAllUsers'

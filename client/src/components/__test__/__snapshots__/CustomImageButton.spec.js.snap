@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomImageButton render 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <WithStyles(ButtonBases)
+    image={
+      Object {
+        "title": "Click to change",
+        "url": "/uploads/default.jpeg",
+        "width": "100%",
+      }
+    }
+    onClick={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "classes": Object {
+        "focusVisible": "ButtonBases-focusVisible-3",
+        "image": "ButtonBases-image-2",
+        "imageBackdrop": "ButtonBases-imageBackdrop-6",
+        "imageButton": "ButtonBases-imageButton-4",
+        "imageMarked": "ButtonBases-imageMarked-8",
+        "imageSrc": "ButtonBases-imageSrc-5",
+        "imageTitle": "ButtonBases-imageTitle-7",
+        "root": "ButtonBases-root-1",
+      },
+      "image": Object {
+        "title": "Click to change",
+        "url": "/uploads/default.jpeg",
+        "width": "100%",
+      },
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": null,
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "classes": Object {
+          "focusVisible": "ButtonBases-focusVisible-3",
+          "image": "ButtonBases-image-2",
+          "imageBackdrop": "ButtonBases-imageBackdrop-6",
+          "imageButton": "ButtonBases-imageButton-4",
+          "imageMarked": "ButtonBases-imageMarked-8",
+          "imageSrc": "ButtonBases-imageSrc-5",
+          "imageTitle": "ButtonBases-imageTitle-7",
+          "root": "ButtonBases-root-1",
+        },
+        "image": Object {
+          "title": "Click to change",
+          "url": "/uploads/default.jpeg",
+          "width": "100%",
+        },
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": null,
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+  },
+}
+`;
