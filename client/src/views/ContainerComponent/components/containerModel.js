@@ -23,7 +23,7 @@ export default class FormDialog extends React.Component {
         onClose={this.props.handleFormClose}
         aria-labelledby='form-dialog-title'
         >
-        <DialogTitle id='form-dialog-title'>Subscribe</DialogTitle>
+        <DialogTitle id='form-dialog-title'>Add / Change Item Quantity</DialogTitle>
         <DialogContent>
           <DialogContentText>
               To update or add new item in list enter the name and value in gm(max value 1000).
