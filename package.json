@@ -1,10 +1,10 @@
 {
-  "name": "mesaic",
+  "name": "smart-jar",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./bin/app",
+    "start": "node ./bin/app",
     "start:prod": "node ./bin/app",
     "build": "node scripts/build.js",
     "test": "jest --verbose",
