@@ -47,7 +47,7 @@ class ContainerComponent extends React.Component {
         <Grid container spacing={16}>
           {
           list.map(l => {
-          return (<Grid item md={12} key={l.itemName}>
+          return (<Grid item md={12} sm={12} xs={12} key={l.itemName}>
             <Container item={l} refill={this.refill} />
           </Grid>)
           })
