@@ -12,6 +12,7 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import Button from '@material-ui/core/Button'
 import Divider from '@material-ui/core/Divider'
 import ContainerTable from './containerTable.jsx'
+import ContainerCharts from './containerCharts'
 import amber from '@material-ui/core/colors/amber'
 const styles = theme => ({
   root: {
@@ -76,6 +77,9 @@ function DetailedExpansionPanel (props) {
             <Typography variant='caption' className={classes[variant]}>
               {text}
             </Typography>
+          </div>
+          <div className={classes.column} >
+            <ContainerCharts data={details} />
           </div>
         </ExpansionPanelDetails>
         <Divider />
