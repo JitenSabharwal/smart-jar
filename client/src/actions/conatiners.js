@@ -96,12 +96,11 @@ export const findContainer = (data) => {
  * Dispatch event to change the state
  * @param {stirng} userId
  */
-export const deleteContainer = (userId) => {
+export const deleteContainer = ({itemName}) => {
   return async (dispatch, getState) => {
-    // We dispatch requestLogin to kickoff the call to the API
     const state = JSON.parse(JSON.stringify(getState()))
-    const newContainerList = state.user.list.filter(u => u._id !== userId)
-    await postRequest(`${DELETE_CONTAINER_ENDPOINT}/${userId}`)
+    const newContainerList = state.container.list.filter(u => u.itemName !== itemName)
+    await postRequest(`${DELETE_CONTAINER_ENDPOINT}/${itemName}`)
     dispatch(requestSucess(newContainerList, DELETE_CONTAINER))
   }
 }

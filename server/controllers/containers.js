@@ -56,7 +56,7 @@ const findContainer = (itemName) => {
  */
 const removeContainer = (itemName) => {
   return new Promise((resolve, reject) => {
-    Container.deleteOne({ itemName }, (err, resp) => {
+    Container.remove({ itemName }, (err, resp) => {
       if (err) reject(err)
       return resolve({ data: 'Done' })
     })

@@ -55,8 +55,8 @@ router.post('/addContainer/', upload.single('profilePic'), (req, res, next) => {
 /**
  * POST Request: To remove a user
  */
-router.delete('/removeContainer/:name', (req, res, next) => {
-  removeContainer(req.params.id)
+router.post('/removeContainer/:name', (req, res, next) => {
+  removeContainer(req.params.name)
     .then(resp => {
       res.send(parse(resp))
     })
