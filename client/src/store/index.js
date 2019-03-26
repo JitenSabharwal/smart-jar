@@ -2,7 +2,7 @@ import { createStore, applyMiddleware } from 'redux'
 import logger from 'redux-logger'
 import thunk from 'redux-thunk'
 import rootReducer from '../reducers'
-import { composeWithDevTools } from 'redux-devtools-extension'
+// import { composeWithDevTools } from 'redux-devtools-extension'
 import { loadInitailState } from '../helpers/util'
 import {ALL_CONTAINER_ENDPOINT} from '../helpers/endpoints'
 const middleware = [thunk, logger]
@@ -17,8 +17,8 @@ export const configureStoreAsync = () => {
       const store = createStore(
         rootReducer,
         initialStoreState,
-        // applyMiddleware(...middleware)
-        composeWithDevTools(applyMiddleware(...middleware))
+        applyMiddleware(...middleware)
+        // composeWithDevTools(applyMiddleware(...middleware))
       )
       return store
     })
